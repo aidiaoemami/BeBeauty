@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Be Beauty</string>
+    <string name="nama">Aidia Oemami</string>
+    <string name="nim">1167050013</string>
+    <string name="alamat">Pondok Hijau 3 Permai 5 Cipadung</string>
+    <string name="contact">Contact Me!</string>
+    <string name="sosmed">Find Me On Instagram!</string>
+    <string name="loc">My Location</string>
+
+</resources>

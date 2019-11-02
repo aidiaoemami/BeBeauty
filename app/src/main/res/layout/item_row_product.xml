@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="4dp"
+            android:src="@android:color/darker_gray"
+            android:scaleType="centerCrop"
+            />
+        <TextView
+            android:layout_toRightOf="@+id/img_item_photo"
+            android:layout_toEndOf="@+id/img_item_photo"
+            android:id="@+id/tv_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="wardah day cream"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginBottom="3dp"
+            android:fontFamily="cursive"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:padding="2dp"
+            />
+
+        <TextView
+            android:layout_below="@+id/tv_item_name"
+            android:layout_toEndOf="@id/img_item_photo"
+            android:layout_toRightOf="@+id/img_item_photo"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/tv_item_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="krim siang"
+            android:padding="2dp"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
